@@ -1,4 +1,4 @@
-package com.jetpack.flutter_app
+package com.jetpack.flutterdart
 
 import android.os.Bundle
 
@@ -9,5 +9,8 @@ class MainActivity: FlutterActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     GeneratedPluginRegistrant.registerWith(this)
+
+
+
   }
 }
