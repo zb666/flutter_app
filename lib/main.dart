@@ -96,8 +96,7 @@ class GridViewState extends State {
   }
 
   Widget getItemWidget() {
-    String url =
-        "http://guolin.tech/book.png";
+    String url = "http://guolin.tech/book.png";
     return new Image(
       image: new NetworkImage(url),
     );
